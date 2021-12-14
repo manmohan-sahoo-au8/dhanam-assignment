@@ -1,0 +1,25 @@
+{
+  "name": "dhanam-assignment",
+  "version": "1.0.0",
+  "description": "assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manmohan-sahoo-au8/dhanam-assignment.git"
+  },
+  "author": "manmohan sahoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manmohan-sahoo-au8/dhanam-assignment/issues"
+  },
+  "homepage": "https://github.com/manmohan-sahoo-au8/dhanam-assignment#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  }
+}
