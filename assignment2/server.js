@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const { urlencoded } = require('body-parser');
 const port = process.env.PORT || 3000;
 
+//database connection
 require('./config/db');
 const user = require('./routes/user');
 
